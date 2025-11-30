@@ -380,8 +380,8 @@ def parse_args():
     Use argparse to get the target from the command line.
 
     Example usage:
-      python recon_basic.py -t https://example.com
-      python recon_basic.py --target 10.10.10.10
+      python orwell_recon.py -t https://example.com
+      python orwell_recon.py --target 10.10.10.10
     """
     parser = argparse.ArgumentParser(
         description="Basic recon script: DNS lookup + WHOIS + Nmap + Gobuster (subdomains & directories)."
